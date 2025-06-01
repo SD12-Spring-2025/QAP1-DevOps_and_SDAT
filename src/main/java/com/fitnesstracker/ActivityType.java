@@ -26,10 +26,10 @@ public enum ActivityType {
     }
 
     /**
-     * Finds an ActivityType by name.
+     * Finds an ActivityType by name (case-insensitive).
      *
      * @param name The name of the activity.
-     * @return The matching ActivityType, or null if not found.
+     * @return The matching ActivityType, or throws an exception if invalid.
      */
     public static ActivityType fromName(String name) {
         for (ActivityType type : ActivityType.values()) {
@@ -37,6 +37,7 @@ public enum ActivityType {
                 return type;
             }
         }
-        return null; // Changed to null for testing, exception handling added later.
+        throw new IllegalArgumentException("Invalid activity type: " + name +
+                ". Choose from RUNNING, WEIGHTLIFTING, CYCLING.");
     }
 }
