@@ -1,10 +1,42 @@
 package com.fitnesstracker;
 
 /**
- * Defines basic fitness activity types.
+ * Represents different types of fitness activities with their associated
+ * calorie burn rates per minute.
  */
 public enum ActivityType {
-    RUNNING,
-    WEIGHTLIFTING,
-    CYCLING;
+    RUNNING("Running", 10.0),
+    WEIGHTLIFTING("Weightlifting", 7.0),
+    CYCLING("Cycling", 8.0);
+
+    private final String name;
+    private final double caloriesPerMinute;
+
+    ActivityType(String name, double caloriesPerMinute) {
+        this.name = name;
+        this.caloriesPerMinute = caloriesPerMinute;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public double getCaloriesPerMinute() {
+        return caloriesPerMinute;
+    }
+
+    /**
+     * Finds an ActivityType by name.
+     *
+     * @param name The name of the activity.
+     * @return The matching ActivityType, or null if not found.
+     */
+    public static ActivityType fromName(String name) {
+        for (ActivityType type : ActivityType.values()) {
+            if (type.name.equalsIgnoreCase(name)) {
+                return type;
+            }
+        }
+        return null; // Changed to null for testing, exception handling added later.
+    }
 }
