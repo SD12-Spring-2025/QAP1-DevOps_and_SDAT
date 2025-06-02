@@ -10,8 +10,11 @@ A CLI-based fitness tracking system with user management, goal setting, and work
 The Fitness Tracker Application is a command-line fitness tracking tool that allows users to:
 
 ✅ Create & log in to accounts
+
 ✅ Track workouts & calories burned
+
 ✅ Set & manage fitness goals
+
 ✅ Monitor progress efficiently
 
 This project is designed to provide a structured way to track fitness activities, while maintaining unit test compatibility for reliability.
@@ -20,8 +23,11 @@ This project is designed to provide a structured way to track fitness activities
 🛠 Technologies Used
 
 Java (JDK 17+) – Core programming language
+
 JUnit 5 – Unit testing framework
+
 Maven – Dependency management
+
 IntelliJ IDEA – Recommended IDE for development
 
 -------------------------------------------------------------------------------
