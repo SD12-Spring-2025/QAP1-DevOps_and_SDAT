@@ -25,7 +25,7 @@ public class Workout {
     public Workout(ActivityType activityType, Duration duration, LocalDate date) {
         this.activityType = Objects.requireNonNull(activityType, "Activity type cannot be null.");
         setDate(Objects.requireNonNull(date, "Date cannot be null."));
-        setDuration(duration); // This will perform validation
+        setDuration(duration);
         calculateCaloriesBurned();
     }
 
@@ -45,7 +45,7 @@ public class Workout {
      */
     public void setActivityType(ActivityType activityType) {
         this.activityType = Objects.requireNonNull(activityType, "Activity type cannot be null.");
-        calculateCaloriesBurned(); // Recalculate if activity type changes
+        calculateCaloriesBurned();
     }
 
     /**
@@ -69,7 +69,7 @@ public class Workout {
             throw new IllegalArgumentException("Workout duration must be positive.");
         }
         this.duration = duration;
-        calculateCaloriesBurned(); // Recalculate if duration changes
+        calculateCaloriesBurned();
     }
 
     /**

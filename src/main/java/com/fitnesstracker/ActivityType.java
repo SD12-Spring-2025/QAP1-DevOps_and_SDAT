@@ -5,7 +5,7 @@ package com.fitnesstracker;
  * calorie burn rates per minute.
  */
 public enum ActivityType {
-    RUNNING("Running", 10.0),
+    RUNNING("Running", .10),
     WEIGHTLIFTING("Weightlifting", 7.0),
     CYCLING("Cycling", 8.0);
 
