@@ -1,9 +1,12 @@
 # QAP1-DevOps_and_SDAT
-Fitness Tracker
+**Fitness Tracker**
 
 Fitness Tracker Application 🚀
+
 A CLI-based fitness tracking system with user management, goal setting, and workout logging!
+
 📌 Project Overview
+
 The Fitness Tracker Application is a command-line fitness tracking tool that allows users to:
 
 ✅ Create & log in to accounts
@@ -15,6 +18,7 @@ This project is designed to provide a structured way to track fitness activities
 
 -------------------------------------------------------------------------------
 🛠 Technologies Used
+
 Java (JDK 17+) – Core programming language
 JUnit 5 – Unit testing framework
 Maven – Dependency management
@@ -81,19 +85,22 @@ exit	                                      Close the application
 
 🔹 Example Usage
 🔸 Logging a Workout
-> log Running 45 2024-06-01
-Workout logged successfully: Running, Duration: 45 minutes, Date: 2024-06-01, Calories Burned: 4.5
 
-> 🔸 Setting a Goal
-> > set-goal Weekly Running 150 2024-06-01 2024-06-07
-Goal set successfully: Weekly Running, Target: 150, Period: 2024-06-01 to 2024-06-
+    > log Running 45 2024-06-01
+    Workout logged successfully: Running, Duration: 45 minutes, Date: 2024-06-01, Calories Burned: 4.5
+
+🔸 Setting a Goal
+
+    > set-goal Weekly Running 150 2024-06-01 2024-06-07
+    Goal set successfully: Weekly Running, Target: 150, Period: 2024-06-01 to 2024-06-
 
 🔸 Tracking Progress
-> track Running
-Progress for Running:
-Total Duration: 120 minutes
-Total Calories Burned: 12.0
->
+
+    > track Running
+    Progress for Running:
+    Total Duration: 120 minutes
+    Total Calories Burned: 12.0
+
 -------------------------------------------------------------------------------
 
 
