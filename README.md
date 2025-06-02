@@ -45,19 +45,23 @@ Error handling validation
 -------------------------------------------------------------------------------
 
 📥 Installation & Setup
+
 1️⃣ Clone the Repository
 
-git clone https://github.com/your-repo-url/FitnessTracker.git
-cd FitnessTracker
+    git clone https://github.com/your-repo-url/FitnessTracker.git
+    cd FitnessTracker
 
 2️⃣ Build the Project
-mvn clean install
+
+    mvn clean install
 
 3️⃣ Run the Application
-java -jar target/FitnessTracker.jar
+
+    java -jar target/FitnessTracker.jar
 
 4️⃣ Run Unit Tests
-mvn test
+
+    mvn test
 
 -------------------------------------------------------------------------------
 
