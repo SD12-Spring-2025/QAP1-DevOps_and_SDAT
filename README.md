@@ -79,7 +79,7 @@ Error handling validation
 
 🔹 Available Commands
 
-Command	                                                    Description
+Command                                              Description
 
 login	                                      Log in to an existing user account
 
@@ -100,6 +100,7 @@ view-user	                                  Display user information
 exit	                                      Close the application
 
 🔹 Example Usage
+
 🔸 Logging a Workout
 
     > log Running 45 2024-06-01
@@ -136,16 +137,23 @@ WorkoutTest	                                  Tests workout logging & calorie ca
 
 -------------------------------------------------------------------------------
 🔗 Contributors & Credits
+
 Wayne – Lead Developer 🚀
+
 JUnit & Maven Community – Testing & build tools
+
 IntelliJ IDEA – Recommended development environment
 
 -------------------------------------------------------------------------------
 
 🔧 Future Improvements
+
 🔹 Add database storage (save workouts persistently) 
+
 🔹 Introduce advanced analytics (graphs, trends) 
+
 🔹 Expand available workouts (swimming, hiking, yoga)
+
 🔹 Improved front end-user interface
 
 
