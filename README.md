@@ -79,7 +79,7 @@ Error handling validation
 
 🔹 Available Commands
 
-login  ----?  Log in to an existing user account
+login  ----> Log in to an existing user account
 
 create-user ----> Create a new user account
 
@@ -135,7 +135,9 @@ JUnit 5 tests are used to validate:
 Test Classes
 
 FitnessTrackerAppTest ----> Validates command execution & error handling
+
 GoalTest ----> Tests goal creation, progress updates, and validations
+
 WorkoutTest ----> Tests workout logging & calorie calculations
 
 -------------------------------------------------------------------------------
