@@ -79,25 +79,25 @@ Error handling validation
 
 🔹 Available Commands
 
-Command          :          Description
+login  ----?  Log in to an existing user account
 
-login            :          Log in to an existing user account
+create-user ----> Create a new user account
 
-create-user      :          Create a new user account
+log ----> Log a workout session
 
-log              :          Log a workout session
+track ----> View progress for a specific workout type
 
-track            :          View progress for a specific workout type
+set-goal ----> Set a new fitness goal
 
-set-goal         :          Set a new fitness goal
+view-goals ----> View active fitness goals
 
-view-goals       :          View active fitness goals
+view-workouts ----> View all logged workouts
 
-view-workouts    :          View all logged workouts
+view-user ----> Display user information
 
-view-user        :          Display user information
+exit ----> Close the application
 
-exit             :          Close the application
+-------------------------------------------------------------------------------
 
 🔹 Example Usage
 
@@ -134,10 +134,9 @@ JUnit 5 tests are used to validate:
 
 Test Classes
 
-Test Class	                                   Purpose
-FitnessTrackerAppTest	                        Validates command execution & error handling
-GoalTest	                                    Tests goal creation, progress updates, and validations
-WorkoutTest	                                  Tests workout logging & calorie calculations
+FitnessTrackerAppTest ----> Validates command execution & error handling
+GoalTest ----> Tests goal creation, progress updates, and validations
+WorkoutTest ----> Tests workout logging & calorie calculations
 
 -------------------------------------------------------------------------------
 🔗 Contributors & Credits
